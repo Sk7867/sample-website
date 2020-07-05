@@ -1,0 +1,214 @@
+/*reset stylesheet*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*Actual Stylesheet*/
+header{
+	font-family: Sans-serif, Helvetica, Arial;
+	background-color: #ffffff;
+}
+
+header> h1{
+	font-size: 100px;
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+.wrapper {
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 0px 4px 0px;
+  margin-left: 30px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #E6005C;
+  color: white;
+}
+
+nav{
+	width: 100%;
+	background-color: #ffffff;
+	overflow: hidden;
+	text-align: justify;
+	padding: 5px;
+}
+nav a{
+	color: #000000;
+	padding: 10px 12px;
+	text-decoration: none;
+	width: 20%;
+	font-size: 150%;
+}
+
+.topnav a:hover{
+	background-color: #666666;
+	color: #ffffff;
+	border-radius: 15px;
+}
+
+h2 {
+	font-size: 50px;
+	color: #000000;
+	padding: 10px;
+	margin: 5px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4{
+	font-size: 30px;
+}
+
+.news {
+	box-sizing: content-box;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	margin-right: 5px;
+	display: inline-block;
+	border:solid 1px;
+}
+
+.container{
+	text-align: center;
+	display: inline-block;
+	box-sizing: content-box;
+	width: 400px;
+	height: 250px;
+	margin: 5px;
+}
+
+.card{
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.card:hover{
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+.more {
+	padding: 10px;
+	margin: 5px;
+	font-size: 20px;
+}
+
+footer{
+	width: 100%;
+	font-family: Helvetica, Ariel, "Courier New";
+	background-color: #ffffff;
+	padding: 10px;
+	color: #000000;
+}
+
+footer a{
+	text-decoration: none;
+}
