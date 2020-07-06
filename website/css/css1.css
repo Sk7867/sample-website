@@ -89,6 +89,7 @@ header{
 	background-color: #ffffff;
 }
 
+
 header> h1{
 	font-size: 100px;
 	text-align: center;
@@ -96,20 +97,25 @@ header> h1{
 	margin: 5px;
 }
 
+.social-icons {
+	display: inline-block;
+	width: auto;
+}
+
 .wrapper {
-	margin-left: 40px;
-	margin-right: 20px;
+	margin: 0 auto;
+	width: 1000px;
 }
 
 .fa {
   padding: 5px;
-  font-size: 30px;
+  font-size: 20px;
   width: 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
   margin: 0 0px 4px 0px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .fa:hover {
@@ -121,32 +127,34 @@ header> h1{
   color: white;
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
 
 .fa-instagram {
   background: #E6005C;
   color: white;
 }
 
-nav{
-	width: 100%;
-	background-color: #ffffff;
-	overflow: hidden;
-	text-align: justify;
-	padding: 5px;
-}
-nav a{
-	color: #000000;
-	padding: 10px 12px;
-	text-decoration: none;
-	width: 20%;
-	font-size: 150%;
+.bar-conainer {
+	display: none;
 }
 
-.topnav a:hover{
+div.scroll {
+	width: 100%;
+	background-color: #ffffff;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+div.scroll a{
+	display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 125%;
+  margin-left: 2px;
+}
+
+div.scroll a:hover{
 	background-color: #666666;
 	color: #ffffff;
 	border-radius: 15px;
@@ -167,6 +175,10 @@ h4{
 	font-size: 30px;
 }
 
+.news-container {
+	width: 100%;
+}
+
 .news {
 	box-sizing: content-box;
 	width: 200px;
@@ -177,11 +189,15 @@ h4{
 	border:solid 1px;
 }
 
+.full{
+	width: 100%;
+}
+
 .container{
 	text-align: center;
 	display: inline-block;
 	box-sizing: content-box;
-	width: 400px;
+	width: 300px;
 	height: 250px;
 	margin: 5px;
 }
@@ -200,6 +216,67 @@ h4{
 	margin: 5px;
 	font-size: 20px;
 }
+
+@media only screen and (max-width: 425px){
+	.wrapper-top{
+		display: none;
+	}
+
+	header h1{
+		margin-left: 212px;
+		text-align: center;
+		align-items: center;
+	}
+
+	.social-icons {
+		display: block;
+		width: auto;
+	}
+
+	.fa {
+		font-size: 160%;
+		padding: 10px;
+		margin-left: 0px;
+		margin-right: 5px;
+
+	}
+
+	.bar-container {
+	  display: inline-block;
+	  cursor: pointer;
+	  text-align: left;
+	  margin-left: 5px;
+
+	}
+
+	.bar1, .bar2, .bar3 {
+	  width: 35px;
+	  height: 5px;
+	  background-color: #333;
+	  margin: 6px 0;
+	  transition: 0.4s;
+	}
+
+	/* Rotate first bar */
+	.change .bar1 {
+	  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+	  transform: rotate(-45deg) translate(-9px, 6px) ;
+	}
+
+	/* Fade out the second bar */
+	.change .bar2 {
+	  opacity: 0;
+	}
+
+	/* Rotate last bar */
+	.change .bar3 {
+	  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+	  transform: rotate(45deg) translate(-8px, -8px) ;
+	}
+
+}
+
+
 
 footer{
 	width: 100%;
