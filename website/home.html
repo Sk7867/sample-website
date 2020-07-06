@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/css1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css1.css">
+	<script type="text/javascript" src="javascript/nav-function.js"></script>
 	<title>Website</title>
 </head>
 <body>
 	<header><h1>Website Name</h1>
-		<div class="wrapper">
+		<div class="social-icons">
 			<a href="#" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-twitter"></a>
 			<a href="#" class="fa fa-instagram"></a>
-			<nav class="topnav">
-				<a href="f&e.html">Finance & Economy</a>
-				<a href="s&t.html">Science & Technology</a>
-				<a href="dtcw.html">Days That Changes The World</a>
-				<a href="bts.html">Breaking The Scenes</a>
-			</nav>
+		</div>
+			<div class="bar-container" onclick="myFunction(this)">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+			</div>  
+			<div class="wrapper-top scroll">
+					<a href="f&e.html">Finance & Economy</a>
+					<a href="s&t.html">Science & Technology</a>
+					<a href="dtcw.html">Days That Changed The World</a>
+					<a href="bts.html">Breaking The Scenes</a>
+					<a href="bts.html">Books</a>
+					<a href="bts.html">Travelling</a>
+			</div>	
 		</div>
 	</header>
 	<main>
 		<div class="wrapper">
-			<section class="full"><h2>News</h2>
+			<section class="news-container"><h2>News</h2>
 				<div class="news">
 					<article><h3>News 1</h3>
 						<p>This is News 1</p>
@@ -111,3 +119,4 @@
 		<a href="#">Contact Us</a>
 	</footer>
 </body>
+</html>
