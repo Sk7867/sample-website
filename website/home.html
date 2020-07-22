@@ -3,150 +3,249 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/css1.css">
-	<script type="text/javascript" src="javascript/nav-function.js"></script>
 	<title>Website</title>
 </head>
 <body>
-	<header><h1>Website Name</h1>
+	<header>
+		<h1>Website Name</h1>
 		<div class="social-icons">
 			<a href="#" class="fa fa-facebook"></a>
 			<a href="#" class="fa fa-instagram"></a>
 		</div>
-			<div class="bar-container" onclick="myFunction(this)">
-			  <div class="bar1"></div>
-			  <div class="bar2"></div>
-			  <div class="bar3"></div>
-			</div>  
-			<div class="wrapper-top scroll">
-					<a href="f&e.html">Finance & Economy</a>
-					<a href="s&t.html">Science & Technology</a>
-					<a href="dtcw.html">Days That Changed The World</a>
-					<a href="bts.html">Breaking The Scenes</a>
-					<a href="bts.html">Books</a>
-					<a href="bts.html">Travelling</a>
-			</div>	
-		</div>
+		<div class="bars" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>  
+		<div class="scroll" id="mylinks">
+			<div><a href="f&e.html">Finance & Economy</a></div>
+			<div><a href="s&t.html">Science & Technology</a></div>
+			<div><a href="dtcw.html">Days That Changed The World</a></div>
+			<div><a href="bts.html">Breaking The Scenes</a></div>
+			<div><a href="bts.html">Everyday Struggles</a></div>
+			<div><a href="bts.html">Books</a></div>
+			<div><a href="bts.html">Travelling</a></div>
+		</div>	
 	</header>
 	<main>
-		<div class="wrapper">
-			<section class="news-container"><h2>News</h2>
-				<div class="news">
-					<article><h3>News 1</h3>
-						<p>This is News 1</p>
+		<div class="swiper-container">
+		    <!-- Additional required wrapper -->
+		    <div class="swiper-wrapper">
+		        <!-- Slides -->
+		        <div class="swiper-slide">
+	   				<article>
+	       				<figure>
+							<img src="images/hiking_1.jpg" alt="hiking" class="news-image">
+						</figure>
+	   					<h3>News 1</h3>
+						<p>This is News 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus vel tellus placerat luctus. Phasellus porttitor, mi non maximus lacinia, nulla nunc aliquam nibh, non rhoncus enim metus vel justo. Sed nec malesuada nunc. Nulla facilisi. Quisque commodo est id aliquet convallis. Sed quis orci venenatis, vestibulum velit vel, scelerisque neque. Donec sagittis massa eget dui gravida suscipit.</p>
 					</article>
 				</div>
-				<div class="news">
-					<article><h3>News 2</h3>
-						<p>This is News 2</p>
+		        <div class="swiper-slide">
+	  				<article>
+	       				<figure>
+							<img src="images/hiking_1.jpg" alt="hiking" class="news-image">
+						</figure>
+	       				<h3>News 2</h3>
+						<p>This is News 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus vel tellus placerat luctus. Phasellus porttitor, mi non maximus lacinia, nulla nunc aliquam nibh, non rhoncus enim metus vel justo. Sed nec malesuada nunc. Nulla facilisi. Quisque commodo est id aliquet convallis. Sed quis orci venenatis, vestibulum velit vel, scelerisque neque. Donec sagittis massa eget dui gravida suscipit.</p>
 					</article>
 				</div>
-			</section>
-			<section class="full">
-				<h2>Finance & Economy</h2>
-					<div class="flex-container">
-						<div>
-							<article><h3>Article 1</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#"> Read More</a>
-							</article>
-						</div>
-						<div>
-							<article><h3>Article 2</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#">Read More</a>
-							</article>
-						</div>
-						<div>
-							<article><h3>Article 3</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#">Read More</a>
-							</article>
-						</div>
-					</div>	
-					<div class="more-link"><a href="#">See More</a></div>
-
-				<h2>Science & Technology</h2>
-					<div class="flex-container">
-						<div>
-							<article>
-								<h3>Article 1</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#">Read More</a>
-							</article>
-						</div>
-						<div>
-							<article>
-								<h3>Article 2</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#">Read More</a>
-							</article>
-						</div>
-						<div>
-							<article>
-								<h3>Article 3</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#">Read More</a>
-							</article>
-						</div>
-					</div>
-					<div class="more-link"><a href="#"> See More</a></div>	
-				<h2>Days That Changed The World</h2>
-					<div class="flex-container">
-							<div>
-								<article>
-									<h3>Article 1</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-									<a href="#">Read More</a>
-								</article>
-							</div>
-							<div>
-								<article>
-									<h3>Article 2</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-									<a href="#">Read More</a>
-								</article>
-							</div>
-							<div>
-								<article>
-									<h3>Article 3</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-									<a href="#">Read More</a>
-								</article>
-							</div>
-						</div>
-						<div class="more-link"><a href="#"> See More</a></div>		
-					<h2>Breaking The Scenes</h2>
-						<div class="flex-container">
-						<div>
-							<article>
-								<h3>Article 1</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#">Read More</a>
-							</article>
-						</div>
-						<div>
-							<article>
-								<h3>Article 2</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#">Read More</a>
-							</article>
-						</div>
-						<div>
-							<article>
-								<h3>Article 3</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci. Aliquam tristique, dui a sodales cursus, libero mi pharetra massa, id eleifend elit neque eget est..</p>
-								<a href="#">Read More</a>
-							</article>
-						</div>
-					</div>
-					<div class="more-link"><a href="#"> See More</a></div>	
-			</section>	
+		        <div class="swiper-slide">
+		      		<article>
+	       				<figure>
+							<img src="images/hiking_1.jpg" alt="hiking" class="news-image">
+						</figure>
+	       				<h3>News 3</h3>
+						<p>This is News 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus vel tellus placerat luctus. Phasellus porttitor, mi non maximus lacinia, nulla nunc aliquam nibh, non rhoncus enim metus vel justo. Sed nec malesuada nunc. Nulla facilisi. Quisque commodo est id aliquet convallis. Sed quis orci venenatis, vestibulum velit vel, scelerisque neque. Donec sagittis massa eget dui gravida suscipit.</p>
+					</article>				      	
+			    </div>
+			    <div class="swiper-slide">
+		      		<article>
+	       				<figure>
+							<img src="images/hiking_1.jpg" alt="hiking" class="news-image">
+						</figure>
+	       				<h3>News 4</h3>
+						<p>This is News 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus vel tellus placerat luctus. Phasellus porttitor, mi non maximus lacinia, nulla nunc aliquam nibh, non rhoncus enim metus vel justo. Sed nec malesuada nunc. Nulla facilisi. Quisque commodo est id aliquet convallis. Sed quis orci venenatis, vestibulum velit vel, scelerisque neque. Donec sagittis massa eget dui gravida suscipit.</p>
+					</article>
+		        </div>
+		        <div class="swiper-slide">
+		      		<article>
+	       				<figure>
+							<img src="images/hiking_1.jpg" alt="hiking" class="news-image">
+						</figure>
+	       				<h3>News 5</h3>
+						<p>This is News 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus vel tellus placerat luctus. Phasellus porttitor, mi non maximus lacinia, nulla nunc aliquam nibh, non rhoncus enim metus vel justo. Sed nec malesuada nunc. Nulla facilisi. Quisque commodo est id aliquet convallis. Sed quis orci venenatis, vestibulum velit vel, scelerisque neque. Donec sagittis massa eget dui gravida suscipit.</p>
+					</article>
+		        </div>
+		        <div class="swiper-slide">
+		      		<article>
+	       				<figure>
+							<img src="images/hiking_1.jpg" alt="hiking" class="news-image">
+						</figure>
+	       				<h3>News 6</h3>
+						<p>This is News 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus vel tellus placerat luctus. Phasellus porttitor, mi non maximus lacinia, nulla nunc aliquam nibh, non rhoncus enim metus vel justo. Sed nec malesuada nunc. Nulla facilisi. Quisque commodo est id aliquet convallis. Sed quis orci venenatis, vestibulum velit vel, scelerisque neque. Donec sagittis massa eget dui gravida suscipit.</p>
+					</article>
+		        </div>
+		    </div>
+		    <!-- pagination -->
+		    <div class="swiper-pagination"></div>
 		</div>
+		<section class="full">
+			<h2>Finance & Economy</h2>
+				<div class="flex-container">
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 1</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#"> Read More</a>
+						</article>
+					</div>
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 2</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#">Read More</a>
+						</article>
+					</div>
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 3</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#">Read More</a>
+						</article>
+					</div>
+				</div>
+				<div class="more-link"><a href="#">See More</a></div>
+			<h2>Science & Technology</h2>
+				<div class="flex-container">
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 1</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#"> Read More</a>
+						</article>
+					</div>
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 2</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#">Read More</a>
+						</article>
+					</div>
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 3</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#">Read More</a>
+						</article>
+					</div>
+				</div>
+				<div class="more-link"><a href="#">See More</a></div>		
+			<h2>Days That Changed The World</h2>
+				<div class="flex-container">
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 1</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#"> Read More</a>
+						</article>
+					</div>
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 2</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#">Read More</a>
+						</article>
+					</div>
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 3</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#">Read More</a>
+						</article>
+					</div>
+				</div>
+				<div class="more-link"><a href="#">See More</a></div>
+			<h2>Breaking The Scenes</h2>
+				<div class="flex-container">
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 1</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#"> Read More</a>
+						</article>
+					</div>
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 2</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#">Read More</a>
+						</article>
+					</div>
+					<div>
+						<article>
+							<figure>
+								<img src="images/hiking_1.jpg" alt="hiking" class="image">
+							</figure>
+							<h3>Article 3</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tortor dolor, vitae consequat lorem vulputate bibendum. Mauris eget sem erat. Sed nec dui sit amet dolor feugiat tincidunt. Donec vitae malesuada neque. Nulla porttitor mi ut laoreet sagittis. Duis nec magna orci.</p>
+							<a href="#">Read More</a>
+						</article>
+					</div>
+				</div>
+				<div class="more-link"><a href="#">See More</a></div>
+			</section>		
+		
 	</main>
 	<footer>
-		<a href="#">About Us</a><br>
-		<a href="#">Contact Us</a>
+		<div><h3>Website Name</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac aliquet enim, sit amet ultrices nisl. Proin id ex nec nisi tristique fringilla eu vitae velit. Nullam quis nisi sem. Nulla nibh augue, bibendum nec risus at, interdum tempus ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed iaculis libero et euismod vehicula. In hac habitasse platea dictumst. Sed scelerisque nisl enim, sed gravida tellus consectetur fermentum</p>
+		</div>
+		<div class="footer-link">
+			<a href="#">About Us</a>
+			<a href="#">Contact Us</a>
+			<a href="#">Privacy Policy</a>
+		</div>	
 	</footer>
+<script type="text/javascript" src="javascript/nav.js"></script>
+<script type="text/javascript" src="javascript/nav-function.js"></script>
+<script type="text/javascript" src="javascript/swiper.js"></script>
 </body>
-</html>
+</html>	
+
