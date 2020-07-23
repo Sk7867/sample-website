@@ -1,4 +1,4 @@
-	/*reset stylesheet*/
+		/*reset stylesheet*/
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
@@ -184,6 +184,7 @@ h2 {
       height: 500px;
       text-align: center;
       box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+      background: #000000;
     }
 
     .news-image {
@@ -196,6 +197,7 @@ h2 {
 
     .swiper-slide p {
         margin: 10px;
+        color: #ffffff;
     }
 
 .flex-container {
@@ -209,10 +211,11 @@ h2 {
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    background: #000000;
 }
 
 .flex-container > div:hover{
-    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.4)
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.6)
 }
 
 .image{
@@ -226,6 +229,7 @@ h3 {
 
 p {
     text-align: justify;
+    color: #ffffff;
 }
 
 .more-link {
