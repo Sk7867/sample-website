@@ -207,17 +207,14 @@ p {
 .more-link {
     text-align: center;
     font-size: 20px;
-    margin: -5px 10px 10px;
+    margin: 10px 10px 10px;
 
-}
-
-div a {
-    margin : 10px;
 }
 
 .more-link a, div a  {
     text-decoration: none;
     color: #cccccc;
+    
 }
 
 footer{
