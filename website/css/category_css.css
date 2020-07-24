@@ -1,0 +1,29 @@
+h3 {
+	color: #ffffff;
+}
+
+@media only screen and (min-width: 768px){
+	.flex-container {
+		display: grid;
+		grid-template-columns: 350px 350px;
+		grid-template-rows: 450px;
+		justify-content: space-evenly;
+		grid-row-gap: 20px; 
+
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.full {
+		width: 1024px;
+	}
+
+	.flex-container {
+	grid-template-columns: repeat(3, 350px);
+    grid-gap: 20px;
+	}
+
+	.flex-container > div {
+		height: 400px;
+	}
+}

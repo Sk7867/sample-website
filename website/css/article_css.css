@@ -1,0 +1,121 @@
+/**reset **/
+
+html, body {
+    background: #fff;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin-left: 1rem;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+	margin: 0;
+}
+
+/** page layout **/
+main {
+    display: block;
+ /*   grid-template-columns: 1fr 15em;*/
+    width: 100%;
+    margin: 0 auto;
+    background: #e6e6e6;
+}
+
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+.article-image{
+	margin: 5px 0;
+	width: 100%;
+}  
+
+/*  ScrollSpy active styles (see JS tab for activation) */
+.section-nav li.active > a {
+    color: #ffffff;
+    font-weight: 550;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+    padding-left: 0;
+    top: 1rem;
+    align-self: start;
+    background: #8c8c8c;
+    width: 100%;
+}
+
+.section-nav a {
+    text-decoration: none;
+    display: block;
+    padding: .125rem 0;
+    color: #000000;
+    transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+    font-size: 25px;
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+    color: #ffffff;
+    font-weight: 375;
+}
+
+section p {
+	color: #000000;
+	line-height: 1.5;
+	margin: 0 5px;
+}
+
+@media only screen and (min-width: 768px){
+	main {
+		display: flex;
+		flex-direction: row; 
+	}
+
+	.section-nav {
+		position: sticky;
+		top: 1rem;
+		width: 30%;
+	}
+
+	.article-image {
+		width: 25%;
+		margin: 10px;
+	}
+
+	.image-left {
+		float: left;
+	} 
+
+	.image-right {
+		float: right;
+	}
+
+	section p {
+		margin: 0 10px;
+	}
+
+}
+
+@media only screen and (min-width: 1000px) {
+	.section-content {
+		margin-right: 15em; 
+	}
+	.section-nav {
+		width: 50%;
+	}
+
+	.artcle-image{
+		width: 30%;
+	}
+}
