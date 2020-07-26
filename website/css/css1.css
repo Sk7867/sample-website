@@ -175,7 +175,7 @@ main {
 .accordian {
     margin: 20px 10px 0;
     padding: 20px;
-    height: 35vh;
+    height: 33vh;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
@@ -319,7 +319,7 @@ footer p {
 
     .accordian {
     width: 300px;
-    height: 35vh;
+    height: 25vh;
     margin: 0px 10px 10px;
     }
 
@@ -368,7 +368,7 @@ footer p {
     }
 
     .accordian {
-        height: 35vh;
+        height: 34vh;
     }
 
     .more-link {
