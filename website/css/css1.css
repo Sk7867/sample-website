@@ -1,4 +1,4 @@
-	/*reset stylesheet*/
+		/*reset stylesheet*/
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
@@ -175,7 +175,7 @@ main {
 .accordian {
     margin: 20px 10px 0;
     padding: 20px;
-    height: 212px;
+    height: 35vh;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
@@ -246,7 +246,7 @@ footer p {
     color: #000000
 }
 
-@media only screen and (min-width: 360px){
+/*@media only screen and (min-width: 360px){
     .accordian {
         height: 244px;
     }
@@ -269,7 +269,7 @@ footer p {
         height: 290px;
     }
 }
-
+*/
 @media only screen and (min-width: 768px){
     h1 {
         font-size: 60px;
@@ -319,7 +319,7 @@ footer p {
 
     .accordian {
     width: 300px;
-    height: 165px;
+    height: 35vh;
     margin: 0px 10px 10px;
     }
 
@@ -368,10 +368,11 @@ footer p {
     }
 
     .accordian {
-        height: 220px;
+        height: 35vh;
     }
 
     .more-link {
     margin: 20px 10px 10px;
     }
+
 }
